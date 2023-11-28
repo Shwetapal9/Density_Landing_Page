@@ -74,7 +74,7 @@ const Frame = () => {
       <div className={styles.cards}>
         <div>
           <img src={card1} alt="card1" />
-          <img src={card2} className = {styles.card2}alt="card2" />
+          <img src={card2} className={styles.card2} alt="card2" />
           <img src={card3} alt="card" />
         </div>
       </div>
