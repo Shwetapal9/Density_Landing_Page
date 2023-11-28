@@ -1,0 +1,118 @@
+.frame_outer{
+    margin-top: 25rem;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.frame_inner{
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border: 2px solid;
+    border-color: #143820   ;
+    box-shadow: rgba(112, 156, 104, 0.6) 0px 0px 16px 0px;
+    
+}
+.frame_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame_data_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame_data_inner >p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #EBFF25;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.frame_data_inner >span{
+    color: rgb(160, 164, 164);
+    margin-bottom: 0.5rem;
+}
+.frame_group{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    
+}
+.frame_group > div{
+    height: 30rem;  
+    width: 20%;  
+    margin-top: 7rem;
+    border: 2px solid #143820 ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+   
+}
+.frame_group_inner > p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame_text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -4.19px;
+    line-height: 100px;
+    text-align: center;
+}
+.frame_span1{
+    
+    color: rgb(255, 255, 255);
+    
+}
+.frame_span2{    
+    color: rgb(235, 255, 37);
+}
+.frame_text2>p{
+    color: rgb(255, 255, 255);
+    font-size: 24px;    
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+.cards >div{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.cards >div>img{
+    width: 35%;
+    // height: 20%;
+}
+.cards .card2{
+    height: 58%;
+    width: 43%;
+}

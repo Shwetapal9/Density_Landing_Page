@@ -1,0 +1,68 @@
+.graph_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -4.19px;
+    line-height: 100px;
+    text-align: center;
+    gap: 1rem;
+}
+.graph_text > span{
+    color: rgb(235, 255, 37);
+}
+.graph_text > p{
+    color: rgb(255, 255, 255);
+    margin:0;
+}
+.graph_small > span{
+    color: rgb(234, 217, 217);
+    font-size: 20px;    
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 2rem;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.card_inner{
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border: 2px solid;
+    border-color: #252525   ;
+    
+}
+.card_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_data_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.card_data_inner > p{
+    margin: 0;
+}
+.graph_Image{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
